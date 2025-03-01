@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="@drawable/edit2">
+    <LinearLayout
+        android:id="@+id/linear_lay_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/studentcontent"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="30sp"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linear_lay_logo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        tools:ignore="ExtraText">
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Name"
+            android:textColorHint="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Course Name"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/Year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Year"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/cgpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="10dp"
+            android:hint="Enter CGPA"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/edtemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textEmailAddress"
+            android:hint="Enter Email"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/etdphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Phone Number"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:id="@+id/btnins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Click To Insert"
+            android:textColor="#fff"
+            android:backgroundTint="#2196F3"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Click To Update"
+            android:textColor="#fff"
+            android:backgroundTint= "#2196F3"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btndel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#2196F3"
+            android:text="Click To Delete"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#2196F3"
+            android:text="View"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
