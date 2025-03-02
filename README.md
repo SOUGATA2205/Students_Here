@@ -5,8 +5,11 @@ A student management Android app to insert, update, and display student data alo
 🚀 Features
 
 ✅ Add new student records
+
 ✅ Update existing student details
+
 ✅ Display student subject lists
+
 ✅ User-friendly interface
 
 🛠 Tech Stack
