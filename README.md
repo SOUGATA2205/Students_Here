@@ -15,5 +15,7 @@ A student management Android app to insert, update, and display student data alo
 🛠 Tech Stack
 
 Frontend: XML
+
 Backend: Java
+
 Database: SQLite
